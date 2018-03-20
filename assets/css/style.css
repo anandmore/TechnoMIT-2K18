@@ -149,7 +149,7 @@ a:focus {
 	display: inline-block;
 	width: 50px;
 	height: 50px;
-	border: 2px solid gold;
+	border: 2px solid #0DC0E6;
 	border-left-color: transparent;
 	border-top-color: transparent;
 	position: absolute;
@@ -169,7 +169,7 @@ a:focus {
 }
 
 .next-section .go-to-page-top span {
-	border: 2px solid gold;
+	border: 2px solid #0DC0E6;
 	border-bottom-color: transparent;
 	border-right-color: transparent;
 }
@@ -742,7 +742,7 @@ p {
 
 .front {
 	z-index: 2;
-	background-color: #d9ac26;
+	background-color: #1C79C7;
 	color: black;
 }
 
@@ -757,7 +757,7 @@ p {
 	margin-top: 0px;
 	border-radius: 10px;
 	background-color: #333;
-	color: #d9ac26;
+	color: #1C79C7;
 }
 
 #ul {
@@ -813,7 +813,7 @@ a:after {
 	height: 2px;
 	left: 50%;
 	position: absolute;
-	background: gold;
+	background: #0DC0E6;
 	transition: width 0.3s ease 0s, left 0.3s ease 0s;
 	width: 0;
 }
@@ -823,9 +823,18 @@ a:hover:after {
 	left: 0;
 }
 
+@font-face {
+font-family: "adam-webfont";
+src: url("css/fonts/adam-webfont.eot");
+src: 
+url("css/fonts/adam-webfont.woff") format("woff"),
+url("css/fonts/adam-webfont.otf") format("opentype"),
+url("css/fonts/adam-demo.svg#filename") format("svg");
+}
+
 .navbar {
 	font-family: 'Press Start 2P', cursive;
-	color: gold;
+	color: #0DC0E6;
 	font-size: 15px;
 	background-color: black;
 	margin-right: auto;
@@ -834,7 +843,7 @@ a:hover:after {
 
 .scrollable {
 	margin-right: 79px;
-	color: gold;
+	color: #0DC0E6;
 }
 
 #h2 {
@@ -843,18 +852,18 @@ a:hover:after {
 	text-transform: uppercase;
 	font-weight: 300;
 	font-size: 8.5rem;
-	color: #d9ac26;
+	color: #1C79C7;
 	margin-bottom: 40px;
 }
 
 p.tagline {
 	font-variant: small-caps;
-	color: #d9ac26;
+	color: #1C79C7;
 	font-size: 18px;
 }
 
 #abouttechnomit {
-	color: gold;
+	color: #0DC0E6;
 	text-transform: uppercase;
 }
 
@@ -865,17 +874,17 @@ p.tagline {
 }
 
 #eventheading {
-	color: gold;
+	color: #0DC0E6;
 	text-transform: uppercase;
 }
 
 #footer-text {
-	color: gold;
+	color: #0DC0E6;
 	text-decoration: none;
 }
 
 a#footer-text {
-	color: gold;
+	color: #0DC0E6;
 	text-decoration: none;
 }
 
@@ -912,8 +921,8 @@ a {
 .button {
 	vertical-align: middle;
 	background: transparent;
-	border: 1px solid #d9ac26;
-	color: #d9ac26;
+	border: 1px solid #1C79C7;
+	color: #1C79C7;
 	height: 30px;
 	width: 70px;
 }
@@ -941,7 +950,7 @@ p {
 .sr-card-title{
 	position: relative;
 	color: #000;
-	background: #d9ac26;
+	background: #1C79C7;
 	height: 80px;
 	border-top-left-radius: 5px;
     border-top-right-radius: 5px;

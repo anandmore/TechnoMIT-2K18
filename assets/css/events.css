@@ -5,7 +5,7 @@ body {
 }
 
 .tagline {
-	color: #d9ac26;
+	color: #1C79C7;
 	font-size: 20px;
 }
 
@@ -15,7 +15,7 @@ body {
 	text-transform: uppercase;
 	font-weight: 300;
 	font-size: 8.5rem;
-	color: #d9ac26;
+	color: #1C79C7;
 }
 
 .prize {
@@ -93,7 +93,7 @@ body {
 }
 
 .menu h1.logo a:hover {
-	color: #d9ac26;
+	color: #1C79C7;
 }
 
 .menu img.logo {
@@ -113,7 +113,7 @@ body {
 }
 
 .menu a:hover {
-	color: #d9ac26;
+	color: #1C79C7;
 }
 
 .menu a:active {
@@ -150,7 +150,7 @@ body {
 }
 
 .menu-close:hover {
-	color: #d9ac26;
+	color: #1C79C7;
 	-webkit-transition: all .1s ease-in-out;
 	-moz-transition: all .1s ease-in-out;
 	-ms-transition: all .1s ease-in-out;
@@ -203,7 +203,7 @@ body {
 }
 
 #menuToggle:hover {
-	color: #d9ac26;
+	color: #1C79C7;
 	background: rgba(0, 0, 0, .2);
 	-webkit-transition: all .1s ease-in-out;
 	-moz-transition: all .1s ease-in-out;
@@ -235,7 +235,7 @@ body {
 
 .tabheading {
 	font-size: 20px;
-	color: #d9ac26;
+	color: #1C79C7;
 	font-weight: bold;
 }
 
@@ -268,7 +268,7 @@ a.regbtn {
 }
 .game .lan-info-v1 a{
 	text-decoration: none;
-	color: #d9ac26;
+	color: #1C79C7;
 }
 
 #mm-panel, #cs-panel, #fifa-panel {
@@ -285,7 +285,7 @@ a.regbtn {
 .closebtn {
 	position: absolute;
 	text-decoration: none;
-	color: #d9ac26;
+	color: #1C79C7;
 	top: 0;
 	right: 25px;
 	font-size: 36px;
@@ -294,7 +294,7 @@ a.regbtn {
 }
 .closebtn:hover {
 	text-decoration: none;
-	color: #d9ac26;
+	color: #1C79C7;
 }
 #mm:hover, #cs:hover, #fifa:hover {
 	cursor: pointer;
@@ -319,12 +319,12 @@ a.regbtn {
 }
 
 #footer-text {
-	color: gold;
+	color: #0DC0E6;
 	text-decoration: none;
 }
 
 a#footer-text {
-	color: gold;
+	color: #0DC0E6;
 	text-decoration: none;
 }
 
