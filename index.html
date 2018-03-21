@@ -31,10 +31,10 @@
           <ul class="nav navbar-nav navbar-right topnav">
                 <li><a href="#page-top" class="scrollable">Home</a></li>
                 <li><a href="#about" class="scrollable">About</a></li>
-                <li><a href="#events" class="scrollable">Events</a></li>
                 <li><a href="#sponsors" class="scrollable">Sponsors</a></li>
-                <li><a href="#contact" class="scrollable">Contact</a></li>
+                <li><a href="#events" class="scrollable">Events</a></li>
                 <li><a href="#gallery" class="scrollable">Gallery</a></li>
+                <li><a href="#contact" class="scrollable">Contact</a></li>
          </ul>
         </div>
       </div>
@@ -89,6 +89,7 @@
       </div>
     </section>
 	
+	
     <section id="about" class="section-style">
       <div class="pattern height-resize">
         <div class="container">
@@ -99,11 +100,43 @@
             <b>TechnoMIT-2K18</b> is the state level event, annual technical festival organized by Computer Science and engineering department of Maharashtra Institute of Technology, Aurangabad. It has given a platform for young engineers to showcase their technical brilliance. Being completely student organized festival, we believe in practical learning. With our thoughtfully crafted events, we wish to shape young minds and direct them towards finding creative solutions, that will lead to a better tomorrow.
           </div>
           <div class="next-section">
-            <a class="go-to-events"><span></span></a>
+            <a class="go-to-sponsors"><span></span></a>
           </div>
         </div>
       </div>
     </section>
+	
+	<section id="sponsors" class="section-style">
+<div class="pattern height-resize">
+  <div class="container">
+
+   <h3 class="section-title text-center" id="abouttechnomit"><b>SPONSORS</b></h3>
+    <div class="row centered mt mb">
+
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-md-offset-1 gallery">
+        <!--<img src="assets/images/nmtvpartner.jpg" class="img-responsive" >!-->
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-md-offset-1 gallery">
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-md-offset-1 gallery">
+      </div>
+    </div>
+ <div class="row centered mt mb">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-md-offset-1 gallery">
+	</div>
+
+ </div> 
+
+<div class="next-section">
+            <a class="go-to-events"><span></span></a>
+          </div>     
+    </div>
+  </div>
+
+</section>
 
     <section id="events" class="section-style">
       <div class="pattern height-resize">
@@ -301,43 +334,62 @@
 		   
           </div>
           <div class="next-section">
-            <a class="go-to-sponsors"><span></span></a>
+            <a href="#gallery" class="go-to-gallery"><span></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<section id="gallery" class="section-style">
+      <div class="pattern height-resize">
+        <div class="container">
+			<h2 class="section-title">
+				<span id="abouttechnomit"><b>Gallery</b></span>
+			</h2>
+			<br /><br />
+          <div class="w3-content w3-display-container">
+  <img class="mySlides" src="photos/photo (1).JPG" style="width:100%">
+  <img class="mySlides" src="photos/photo (2).JPG" style="width:100%">
+  <img class="mySlides" src="photos/photo (3).JPG" style="width:100%">
+  <img class="mySlides" src="photos/photo (4).JPG" style="width:100%">
+  <img class="mySlides" src="photos/photo (5).JPG" style="width:100%">
+  <img class="mySlides" src="photos/photo (6).JPG" style="width:100%">
+  <img class="mySlides" src="photos/photo (7).JPG" style="width:100%">
+  <img class="mySlides" src="photos/photo (8).JPG" style="width:100%">
+  <img class="mySlides" src="photos/photo (9).JPG" style="width:100%">
+  <img class="mySlides" src="photos/photo (10).JPG" style="width:100%">
+  <img class="mySlides" src="photos/photo (11).JPG" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+          <div class="next-section">
+            <a class="go-to-contact"><span></span></a>
           </div>
         </div>
       </div>
     </section>
 
-<section id="sponsors" class="section-style">
-<div class="pattern height-resize">
-  <div class="container">
-
-   <h3 class="section-title text-center" id="abouttechnomit"><b>SPONSORS</b></h3>
-    <div class="row centered mt mb">
-
-
-      <div class="col-lg-3 col-md-3 col-sm-3 col-md-offset-1 gallery">
-        <!--<img src="assets/images/nmtvpartner.jpg" class="img-responsive" >!-->
-      </div>
-
-      <div class="col-lg-3 col-md-3 col-sm-3 col-md-offset-1 gallery">
-      </div>
-
-      <div class="col-lg-3 col-md-3 col-sm-3 col-md-offset-1 gallery">
-      </div>
-    </div>
- <div class="row centered mt mb">
-      <div class="col-lg-3 col-md-3 col-sm-3 col-md-offset-1 gallery">
-	</div>
-
- </div> 
-
-<div class="next-section">
-            <a class="go-to-contact"><span></span></a>
-          </div>     
-    </div>
-  </div>
-
-</section>
     <section id="contact" class="section-style">
       <div class="pattern height-resize">
         <div class="container">
@@ -443,54 +495,13 @@
 			</div>
 
           <div class="next-section">     
-            <a href="#gallery" class="go-to-gallery"><span></span></a>
-          </div>
-        </div>
-      </div>
-    </section>
-	
-	<section id="gallery" class="section-style">
-      <div class="pattern height-resize">
-        <div class="container">
-			<h2 class="section-title">
-				<span id="abouttechnomit"><b>Gallery</b></span>
-			</h2>
-			<br /><br />
-          <div class="w3-content w3-display-container">
-  <img class="mySlides" src="assets/images/auction.png" style="width:100%">
-  <img class="mySlides" src="assets/images/condenser-microphone-with-small-stand.png" style="width:100%">
-  <img class="mySlides" src="assets/images/gamepad-controller.png" style="width:100%">
-  <img class="mySlides" src="assets/images/list.png" style="width:100%">
-
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
-          <div class="next-section">
             <a class="go-to-page-top"><span></span></a>
           </div>
         </div>
       </div>
     </section>
+	
+	
 	
     <footer id="footer-section">
       <p class="copyright">
