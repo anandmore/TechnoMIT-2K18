@@ -1038,7 +1038,15 @@ p {
 	background-size: cover;
 }
 #event12{
-	background: url("../images/partnership.png") no-repeat center;
+	background: url("../images/condenser-microphone-with-small-stand.png") no-repeat center;
+	background-size: cover;
+}
+#event13{
+	background: url("../images/networking.png") no-repeat center;
+	background-size: cover;
+}
+#event14{
+	background: url("../images/smartphone.png") no-repeat center;
 	background-size: cover;
 }
 
