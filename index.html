@@ -12,6 +12,7 @@
     <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/partical-animation.css">
   </head>
@@ -33,7 +34,8 @@
                 <li><a href="#events" class="scrollable">Events</a></li>
                 <li><a href="#sponsors" class="scrollable">Sponsors</a></li>
                 <li><a href="#contact" class="scrollable">Contact</a></li>
-          </ul>
+                <li><a href="#gallery" class="scrollable">Gallery</a></li>
+         </ul>
         </div>
       </div>
     </nav>
@@ -442,11 +444,54 @@
 			</div>
 
           <div class="next-section">     
+            <a href="#gallery" class="go-to-gallery"><span></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<section id="gallery" class="section-style">
+      <div class="pattern height-resize">
+        <div class="container">
+			<h2 class="section-title">
+				<span id="abouttechnomit"><b>Gallery</b></span>
+			</h2>
+          <div class="w3-content w3-display-container">
+  <img class="mySlides" src="assets/images/auction.png" style="width:100%">
+  <img class="mySlides" src="assets/images/condenser-microphone-with-small-stand.png" style="width:100%">
+  <img class="mySlides" src="assets/images/gamepad-controller.png" style="width:100%">
+  <img class="mySlides" src="assets/images/list.png" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+          <div class="next-section">
             <a class="go-to-page-top"><span></span></a>
           </div>
         </div>
       </div>
     </section>
+	
     <footer id="footer-section">
       <p class="copyright">
         <span id="footer-text">&copy; TechnoMIT-2K18, All Rights Reserved.</span><br><span id="footer1-text">Designed & Developed by <a href="https://anandmore.github.io/">anandmore.</a></span>
