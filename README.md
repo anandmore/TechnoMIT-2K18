@@ -1,1 +1,1 @@
-# TechnoMIT-2K18
+Official website for TechnoMIT-2K18.
