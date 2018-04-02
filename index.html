@@ -71,6 +71,23 @@
 			</h3>
 			<h2 class="section-title" id="h2">
 				<p class="text-center tagline"> Technical Fest Of Computer Science<br />06<sup>th</sup> and 07<sup>th</sup> April 2018 </p>
+				<p id="demo" class="text-center tagline" style="color:red; font-size:33px;"></p><script>
+var countDownDate = new Date("April 6, 2018 10:00:00").getTime();
+var x = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s " + "to go!";
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
 			</h2>
           <div class="social-btn-container">
             <span class="social-btn-box">
