@@ -25,7 +25,7 @@ scrollThreshold: 0.5,
 scrollOffset: 0,
 filter: '',
 easing: 'swing'
-});  
+});
 
 $('.next-section .go-to-about').click(function() {
 $('html,body').animate({scrollTop:$('#about').offset().top}, 1000);
@@ -45,7 +45,7 @@ $('html,body').animate({scrollTop:$('#page-top').offset().top}, 1000);
 
 $(".news-letter").ajaxChimp({
 callback: mailchimpResponse,
-url: "http://jeweltheme.us10.list-manage.com/subscribe/post?u=a3e1b6603a9caac983abe3892&amp;id=257cf1a459" // Replace your mailchimp post url inside double quote "".  
+url: "http://jeweltheme.us10.list-manage.com/subscribe/post?u=a3e1b6603a9caac983abe3892&amp;id=257cf1a459" // Replace your mailchimp post url inside double quote "".
 });
 
 function mailchimpResponse(resp) {
@@ -55,12 +55,12 @@ $('.alert-success').html(resp.msg).fadeIn().delay(3000).fadeOut();
 
 } else if(resp.result === 'error') {
 $('.alert-warning').html(resp.msg).fadeIn().delay(3000).fadeOut();
-}  
+}
 };
 
 });
 
-$(window).load(function () {    
+$(window).load(function () {
 "use strict";
 $("#loader").fadeOut();
 $("#preloader").delay(350).fadeOut("slow");

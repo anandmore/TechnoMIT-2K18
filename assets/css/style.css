@@ -826,7 +826,7 @@ left: 0;
 @font-face {
 font-family: "adam-webfont";
 src: url("css/fonts/adam-webfont.eot");
-src: 
+src:
 url("css/fonts/adam-webfont.woff") format("woff"),
 url("css/fonts/adam-webfont.otf") format("opentype"),
 url("css/fonts/adam-demo.svg#filename") format("svg");
@@ -985,7 +985,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 50px;
-background: #000; 
+background: #000;
 
 }
 
